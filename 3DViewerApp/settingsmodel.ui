@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsModel</class>
+ <widget class="QWidget" name="SettingsModel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>443</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>443</width>
+    <height>408</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>443</width>
+    <height>408</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(14,18,31);</string>
+  </property>
+  <widget class="QLabel" name="label_const_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>4</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 150, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;3DViewer&lt;/span&gt;settings&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_acceptAll">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>370</y>
+     <width>135</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+   </property>
+   <property name="text">
+    <string>Подтвердить все</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>421</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_vertexSize">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <property name="text">
+       <string>2.0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_ribWidth">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <property name="text">
+       <string>0.5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_const_2">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Ширина ребра</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="comboBox_showness">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Нет</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Круглые</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Квадратные</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_const_7">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Вид точек</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="pushButton_vertexColorChoose">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <property name="text">
+       <string>Выбрать цвет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_const_3">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Цвет ребра</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_ribColorChoose">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <property name="text">
+       <string>Выбрать цвет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_const_5">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Размер вершин</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_const_4">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Тип ребра</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_const_6">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Цвет вершины</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_ribType">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Сплошной</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Пунктирный</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="pushButton_bgColorChoose">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 150, 255);
+font-size: 16px;
+background-color: rgb(83, 95, 117);</string>
+      </property>
+      <property name="text">
+       <string>Выбрать цвет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_const_8">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px;
+color: rgb(142, 143, 148);</string>
+      </property>
+      <property name="text">
+       <string>Цвет фона</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
